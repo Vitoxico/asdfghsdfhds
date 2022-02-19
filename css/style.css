@@ -147,14 +147,25 @@ a:focus {
 }
 
 .navbar .navbar-brand {
-    margin: 0;
-    font-size: larger;
+    font-size: 90%;
     line-height: 0px;
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
     
 }
+
+@media (width: 280px) {
+    .navbar .navbar-brand {
+        font-size: 9px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 45px;
+    }
+  }
 
 .navbar .navbar-brand img {
     max-width: 100%;
@@ -952,7 +963,7 @@ a:focus {
 
 .banner .section-header h2 span {
     color: #414141;
-    font-size: 50px;
+    font-size: large;
 }
 
 .banner .banner-text p {
