@@ -148,7 +148,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    font-size: 45px;
+    font-size: larger;
     line-height: 0px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -653,6 +653,12 @@ a:focus {
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
+.custom-icons{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
 .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
     border-left: 5px solid #dddddd;
@@ -754,7 +760,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     border: 1px solid #EF233C;
-    background: #ffffff;
+    background: #EF233C;
 }
 
 .service .service-icon i {
